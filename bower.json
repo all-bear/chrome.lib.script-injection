@@ -1,0 +1,18 @@
+{
+  "name": "chrome-lib-script-injection",
+  "description": "Script injection lib for chrome extension",
+  "license": "MIT",
+  "keywords": [
+    "chrome script injection"
+  ],
+  "main": "dist/js/script-injection.js",
+  "ignore": [
+    "node_modules"
+  ],
+  "dependencies": {
+    "uniq-id": "^0.1.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/all-bear/chrome.lib.script-injection",
+  "version": "0.1.0"
+}

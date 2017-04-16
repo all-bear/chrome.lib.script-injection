@@ -1,0 +1,19 @@
+{
+  "name": "chrome-lib-script-injection",
+  "version": "0.1.0",
+  "description": "Script injection lib for chrome extension",
+  "main": "./dist/js/script-injection.js",
+  "author": {
+    "name": "Oleh Biriukov"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/all-bear/chrome.lib.script-injection"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-babel-minify": "^0.1.12"
+  }
+}
