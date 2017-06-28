@@ -5,9 +5,11 @@ Script injection lib for chrome extension which allows you to execute some scrip
 This simple example shows you how to get global variable from content script (content scripts has no such ability): 
 
 ```javascript
-var ScriptInjection = require('../bower_components/chrome-lib-script-injection/dist/js/script-injection.js').Settings;
+var ScriptInjection = require('../bower_components/chrome-lib-script-injection/dist/js/script-injection.js').ScriptInjection;
 
 var result = ScriptInjection.execute('SomeGlobalVariable');
 // or 
 var result = ScriptInjection.execute('(function () { return 1 + 1 + SomeGlobalVariable ;})()');
+// or
+ScriptInjection.inject('alert("Hii");alert("Hi again");');
 ```

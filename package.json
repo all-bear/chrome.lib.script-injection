@@ -1,6 +1,6 @@
 {
   "name": "chrome-lib-script-injection",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Script injection lib for chrome extension",
   "main": "./dist/js/script-injection.js",
   "author": {
